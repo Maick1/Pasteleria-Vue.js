@@ -12,144 +12,125 @@ const products = [
     {
       id: "2",
       name: "Carnita",
-      price: 20,
+      price: 10,
       image:
         "./BOCADITOS/bolita-carne.jpg",
   
       description:
-        "Hecha con la mejor vainilla traida de japon :3",
+        "Hecha con la carne de la vaca LOLA",
     },
     {
       id: "3",
-      name: "Chocolate y Manjar",
-      price: 20,
+      name: "Bolitas de Coco",
+      price: 12,
       image:
-        "./PASTEL/chocolate-manjar.png",
+        "./BOCADITOS/bolitas-de-coco.jpg",
       description:
-        "Deliciosa torta de chocolate rellena con el mejor manjar hecho con la leche de la  mismmisima vaca LOLA",
+        "Hechas con Coco Rayado",
     },
     {
       id: "4",
-      name: "Mousse Chocolate",
-      price: 12,
+      name: "Caracoles con Crema",
+      price: 8,
       image:
-        "./PASTEL/mousse-choco.jpg",
+        "./BOCADITOS/caracol-cremapastelera.jpg",
   
       description:
-        "Torta hecha con el Mickey Mousse",
+        "Caracoles Rellenos con crema Pastelera",
     },
     {
       id: "5",
-      name: "Torta de Cafe",
-      price: 35,
+      name: "Deditos de Chorizo",
+      price: 8,
       image:
-        "./PASTEL/torta-cafe-moka.jpg",
+        "./BOCADITOS/dedito-chorizo.jpg",
       description:
-        "Torta a base del cafe,  Procedente de Indonesia, el Kopi Luwak ",
+        "Deditos de chorizo de carne Wagyu A5",
     },
     {
       id: "6",
-      name: "ChocoFresa",
-      price: 42,
+      name: "Suspiros",
+      price: 5,
       image:
-        "./PASTEL/torta-chocofresa.jpg",
+        "./BOCADITOS/suspiros.jpg",
   
       description:
-        "Torta hecha a base de las mejores fresas cosechada en la granja de  Rosita Fresita ★",
+        "Suspiros que te haran suspirar <3",
     },
     {
       id: "7",
-      name: "Coco Manjar",
-      price: 23,
+      name: "Frutas de Mazapan",
+      price: 15,
       image:
-        "./PASTEL/torta-coco-manjar.jpg",
+        "./BOCADITOS/Frutitas-de-Mazapan.jpg",
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+        "Frutas hechas con Mazapan",
     },
     {
       id: "8",
-      name: "Happy Tu yu",
-      price: 59,
+      name: "Deditos de Queso",
+      price: 13,
       image:
-        "./PASTEL/torta-cumple.jpg",
+        "./BOCADITOS/deditos-queso.jpg",
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+      "Deditos de queso Rellenos con queso Mozarella",
     },
     {
       id: "9",
-      name: "Humeda Vainilla",
-      price: 20,
+      name: "Empanada de Piña",
+      price: 11,
       image:
-        "./PASTEL/torta-humeda-vainilla.jpg",
+        "./BOCADITOS/empanada.piña.jpg",
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+        "Empanadas rellenas con Piñas de Milagro",
     },
     {
       id: "10",
-      name: "TOrta Manzanas",
-      price: 18,
+      name: "Huevitos Faldiqueros",
+      price: 17,
       image:
-        "./PASTEL/torta-manzana.jpg",
+        "./BOCADITOS/huevitos-faldiqueros.jpg",
   
       description:
-        "tora hecha con la mismisima manzana de blanca nieves",
+        "Huevitos Faldiqueros hecho con Nestle",
     },
     {
       id: "11",
-      name: "Marmoleada",
-      price: 21,
+      name: "Empanada de Carne",
+      price: 18,
       image:
-        "./PASTEL/Torta-marmoleada.jpg",
+        "./BOCADITOS/empanadita-carne.jpg",
   
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+        "Empanadas rellenas de carne",
     },
     {
       id: "12",
-      name: "Mil Hoja",
-      price: 21,
+      name: "Empanadas de Queso",
+      price: 10,
       image:
-        "./PASTEL/torta-mil-hojas.jpg",
+        "./BOCADITOS/empanaditas-queso.jpg",
   
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+        "Empanaditas Rellenas de Queso",
     },
     {
       id: "13",
-      name: "Mojada Chocolate",
+      name: "Tartaleta de Pollo",
       price: 25,
       image:
-        "./PASTEL/torta-mojada-chocolate.jpg",
+        "./BOCADITOS/tartaleta-pollo.jpg",
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+        "Tartaletas Rellenas de pollo",
     },
     {
       id: "14",
-      name: "Torta Naranja",
+      name: "Tartaleta de Fresa",
       price: 30,
       image:
-        "./PASTEL/torta-naranja.jpg",
+        "./BOCADITOS/tartaleta-fresa.jpg",
       description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    },
-    {
-      id: "15",
-      name: "Selva Negra",
-      price: 50,
-      image:
-        "./PASTEL/torta-selva-negra.jpg",
-      description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    },
-    {
-      id: "16",
-      name: "Torta Zanahoria",
-      price: 129,
-      image:
-        "./PASTEL/torta-zanahoria.jpg",
-      description:
-        "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    },
-    
+        "Tartaletas Rellenas de Fresa",
+    }, 
   ];
   export default products;
