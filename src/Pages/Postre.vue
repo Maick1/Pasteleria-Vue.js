@@ -99,7 +99,7 @@
   <script setup>
   
   //Importacion de Ref y la data
-  import data from '@/dataB'
+  import data from '@/dataP'
   import { ref } from 'vue';
   
   //Importamos el javascript

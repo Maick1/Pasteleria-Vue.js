@@ -16,7 +16,7 @@
                   <ol>
                       <li><router-link to="/Pastel">Pasteles</router-link></li>
                       <li><router-link to="/Bocaditos">Bocaditos</router-link></li>
-                      <li><router-link to="/">Postres</router-link></li>
+                      <li><router-link to="/Postre">Postres</router-link></li>
                       <li><router-link to="/">Historia</router-link></li>
                   </ol>
               </v-navigation-drawer>

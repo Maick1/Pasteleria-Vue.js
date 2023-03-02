@@ -69,7 +69,7 @@
               </div>
             </v-card-text>
             <v-card-text class="text-center" v-else>
-              <v-btn class="mx-auto" @click="$router.push('/Pastel')" color="primary">
+              <v-btn class="mx-auto" @click="$router.push('/')" color="primary">
                 Tu carrito esta vacío. Rellenalo
               </v-btn>
             </v-card-text>
