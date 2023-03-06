@@ -26,12 +26,12 @@
     data: () => ({
         bpm: 1,
       packs: [
-        { img: "pu1.jpg", title: "Medium Box", subtitle: "Tomato, Cabbage, Oil, Cauliflower", price: "$55" },
-        { img: "pu2.jpg", title: "Big Pack", subtitle: "Tomato, Cabbage, Oil, Cauliflower", price: "$55" },
-        { img: "pu3.jpg", title: "Small", subtitle: "Tomato, Cabbage, Oil,Cauliflower ", price: "$55" },
-        { img: "pu4.jpg", title: "Medium Box", subtitle: "Tomato, Cabbage, Oil,Cauliflower", price: "$55" },
-        { img: "pu5.jpg", title: "Medium Box", subtitle: "Tomato, Cabbage, Oil,Cauliflower", price: "$55" },
-        { img: "pu6.jpg", title: "Medium Box", subtitle: "Tomato, Cabbage, Oil,Cauliflower", price: "$55" },
+        { img: "pu1.jpg", title: "Combo Mania", subtitle: "Rellenas de Manjar", price: "$55" },
+        { img: "pu2.jpg", title: "2x1", subtitle: "Kisses, Red Velvet", price: "$55" },
+        { img: "pu3.jpg", title: "Consuelo", subtitle: "Red Velvet, Cake", price: "$55" },
+        { img: "pu4.jpg", title: "Promocion del Dia", subtitle: "Multiples Tortas", price: "$55" },
+        { img: "pu5.jpg", title: "Festival del Queso", subtitle: "Piña Colada, Mermelada Berries", price: "$55" },
+        { img: "pu6.jpg", title: "San Martin", subtitle: "Rellenas de Amor xD", price: "$55" },
       ],
     }),
      methods: {

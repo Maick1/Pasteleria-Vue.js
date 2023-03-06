@@ -1,4 +1,5 @@
 <template>
+    <title>Bocaditos</title>
     <v-app id="inspire" :theme="useCartStore().getTheme">
     <div class="bocaditos">
       <v-row class="my-5">

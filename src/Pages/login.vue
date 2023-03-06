@@ -1,4 +1,5 @@
 <template>
+  <title>Login</title>
   <v-form @submit.prevent="onSave" class="login-form">
     <v-text-field v-model="entryTask.nombre" label="Nombres" type="text" class="login-input" required></v-text-field>
 

@@ -16,7 +16,7 @@
 
             <div class="router">
             <router-link to="/Contacto">
-              <v-btn  class="text-yellow mt-8" >Contáctame</v-btn>
+              <v-btn  class="text mt-8" >Contáctame</v-btn>
              </router-link>
             </div>
             </v-col>
@@ -206,8 +206,9 @@ h2.linea span {
   border: 2px solid black !important;
 }
 
-.router{
+.router a {
   text-decoration: none;
 }
+
 
 </style>
