@@ -34,9 +34,9 @@
                         h-100
                       "
                     >
-                      <div class="d-flex align-center bg-primary rounded">
+                      <div class="d-flex align-center">
                         <span
-                          class="icon d-flex align-center pa-3"
+                          class="icon d-flex pa-3"
                           style="cursor: pointer"
                           @click="cartStore.add(item.id)"
                         >
@@ -88,7 +88,7 @@
                 <p class="ma-0">Total</p>
                 <p class="text-primary">${{ cartStore.total }}</p>
               </div>
-              <v-btn color="primary" block> Verificar </v-btn>
+              <v-btn color="primary" block @click="mostrarAlerta"> Verificar </v-btn>
             </v-card-text>
           </v-card>
         </v-col>
@@ -114,5 +114,45 @@ export default {
   components: {
     Header,
   },
+  methods: {
+    mostrarAlerta() {
+      alert("Añadidos al Carrito");
+    }
+  }
 };
 </script>
+
+
+
+
+
+<style>
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+  .py-12 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+  .mr-9 {
+    margin-right: 0 !important;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media only screen and (min-width: 600px) {
+  .py-12 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+  .mr-9 {
+    margin-right: 16px !important;
+  }
+  .text-center {
+    text-align: left !important;
+  }
+}
+
+</style>

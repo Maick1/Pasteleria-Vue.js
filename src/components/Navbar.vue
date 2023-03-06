@@ -7,7 +7,7 @@
                   <v-app-bar-nav-icon color="#33691E" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
                   <v-spacer></v-spacer>
                   <!-- usamo un iconos de fontawesome https://fontawesome.com/v5/icons/signature?s=solid&f=classic -->
-                  <v-btn><v-icon color="#33691E" right class="mr-3">fa fa-birthday-cake</v-icon>Pasteleria y Reposteria Deli´s</v-btn>
+                  <v-btn  @click="$router.push('/')"><v-icon color="#33691E" right class="mr-3">fa fa-birthday-cake</v-icon>Pasteleria y Reposteria Deli´s</v-btn>
               </v-app-bar>
               <v-spacer></v-spacer>
               <!-- opicones del Navbar -->
@@ -17,7 +17,7 @@
                       <li><router-link to="/Pastel">Pasteles</router-link></li>
                       <li><router-link to="/Bocaditos">Bocaditos</router-link></li>
                       <li><router-link to="/Postre">Postres</router-link></li>
-                      <li><router-link to="/">Historia</router-link></li>
+                      <li><router-link to="/Historia">Historia</router-link></li>
                   </ol>
               </v-navigation-drawer>
               </div>
