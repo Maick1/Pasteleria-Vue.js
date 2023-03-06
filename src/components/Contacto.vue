@@ -1,5 +1,4 @@
 <template>
-
   <title>Contacto</title>
   <v-app-bar color="#C8E6C9">
     <v-btn @click="$router.push('/')">

@@ -1,6 +1,6 @@
 <template>
-  <title>Carrito</title>
   <v-app id="inspire" :theme="useCartStore().getTheme">
+    <title>Carrito</title>
     <div class="py-12 mr-9">
       <v-row>
         <v-col md="8">

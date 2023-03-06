@@ -1,6 +1,6 @@
 <template>
-  <title>Pasteles</title>
   <v-app id="inspire" :theme="useCartStore().getTheme">
+    <title>Pasteles</title>
   <div class="pasteles">
     <v-row class="my-5">
       <v-col cols="12">
@@ -48,10 +48,9 @@
 
               <v-card-subtitle> ${{ product.price }} </v-card-subtitle>
               <v-card-actions>
-                <v-btn color="primary"> Read More </v-btn>
                 <v-spacer></v-spacer>
                 <v-btn class="bg-primary" @click="cartStore.add(product.id)">
-                  Añadir Carro
+                  Añadir al Carro
                 </v-btn>
               </v-card-actions>
             </v-card>
@@ -84,9 +83,8 @@
               {{ product.description }}
             </v-card-actions>
             <v-spacer></v-spacer>
-              <v-btn color="primary"> Read More </v-btn>
               <v-btn class="ml-2 bg-primary" @click="cartStore.add(product.id)">
-                Add to Cart
+                Añadir al Carro
               </v-btn>
           </v-col>
         </v-row>

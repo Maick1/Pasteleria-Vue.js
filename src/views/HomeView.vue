@@ -16,7 +16,7 @@
 
             <div class="router">
             <router-link to="/Contacto">
-              <v-btn  class="text mt-8" >Contáctame</v-btn>
+              <v-btn  class="text-red mt-8" >Contáctame</v-btn>
              </router-link>
             </div>
             </v-col>

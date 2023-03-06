@@ -1,6 +1,6 @@
 <template>
-  <title>Login</title>
   <v-form @submit.prevent="onSave" class="login-form">
+    <title>Login</title>
     <v-text-field v-model="entryTask.nombre" label="Nombres" type="text" class="login-input" required></v-text-field>
 
     <v-text-field v-model="entryTask.email" label="Email" type="email" class="login-input" required></v-text-field>
