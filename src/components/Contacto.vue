@@ -1,29 +1,32 @@
 <template>
-  <title>Contacto</title>
-  <v-app-bar color="#C8E6C9">
-    <v-btn @click="$router.push('/')">
-      Inicio
-    </v-btn>
+  <div>
+    <title>Contacto</title>
+    <v-app-bar color="#C8E6C9">
+      <v-btn @click="$router.push('/')">
+        Inicio
+      </v-btn>
     </v-app-bar>
-  <div class="contact-form">
-    <v-form @submit.prevent="submitForm">
-      <v-text-field v-model="name" label="Nombre" required></v-text-field>
-      <v-text-field v-model="email" label="Correo electrónico" required></v-text-field>
-      <v-textarea v-model="message" label="Mensaje" required></v-textarea>
-      <v-btn type="submit" color="primary">Enviar</v-btn>
-    </v-form>
+    <div class="contact-form">
+      <v-form @submit.prevent="submitForm">
+        <v-text-field v-model="name" label="Nombre" required></v-text-field>
+        <v-text-field v-model="email" label="Correo electrónico" required></v-text-field>
+        <v-textarea v-model="message" label="Mensaje" required></v-textarea>
+        <v-btn type="submit" color="primary">Enviar</v-btn>
+      </v-form>
 
-    <v-dialog v-model="dialog" max-width="500">
-      <v-card>
-        <v-card-title class="headline">Mensaje enviado</v-card-title>
-        <v-card-text>Su mensaje ha sido enviado con éxito.</v-card-text>
-        <v-card-actions>
-          <v-btn color="primary" @click="dialog = false">Aceptar</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
+      <v-dialog v-model="dialog" max-width="500">
+        <v-card>
+          <v-card-title class="headline">Mensaje enviado</v-card-title>
+          <v-card-text>Su mensaje ha sido enviado con éxito.</v-card-text>
+          <v-card-actions>
+            <v-btn color="primary" @click="dialog = false">Aceptar</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+    </div>
   </div>
 </template>
+
 
   <script>
 

@@ -118,6 +118,7 @@ export default {
   methods: {
     mostrarAlerta() {
       alert("Añadidos al Carrito");
+      location.reload();
     }
   }
 };
@@ -128,31 +129,53 @@ export default {
 
 
 <style>
-/* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 600px) {
-  .py-12 {
-    padding-top: 24px !important;
-    padding-bottom: 24px !important;
-  }
-  .mr-9 {
-    margin-right: 0 !important;
-  }
-  .text-center {
-    text-align: center !important;
-  }
+/* Ajustar el ancho del contenedor a la pantalla */
+#inspire {
+  width: 100%;
 }
 
-/* Estilos para pantallas medianas y grandes */
-@media only screen and (min-width: 600px) {
-  .py-12 {
-    padding-top: 48px !important;
-    padding-bottom: 48px !important;
+/* Ajustar la altura máxima de la tarjeta a la altura disponible */
+.v-card {
+  max-height: calc(100vh - 200px);
+}
+
+/* Ajustar el tamaño de la imagen en la tarjeta */
+.v-card img {
+  width: 100%;
+  max-height: 200px;
+}
+
+/* Ajustar el tamaño de los iconos de la tarjeta */
+.v-icon {
+  font-size: 1.2rem;
+}
+
+/* Ajustar el tamaño de los botones en la tarjeta */
+.v-btn {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+}
+
+/* Ajustar la disposición de los elementos en la tarjeta en pantallas pequeñas */
+@media screen and (max-width: 770px) {
+  .v-card-title {
+    font-size: 1.5rem;
   }
-  .mr-9 {
-    margin-right: 16px !important;
+  .v-card-text {
+    font-size: 0.8rem;
   }
-  .text-center {
-    text-align: left !important;
+  .v-row {
+    flex-direction: column;
+  }
+  .v-col {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .v-col:first-child {
+    margin-right: 0;
+  }
+  .v-col:last-child {
+    margin-left: 0;
   }
 }
 

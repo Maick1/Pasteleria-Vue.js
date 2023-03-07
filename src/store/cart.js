@@ -4,6 +4,7 @@ import { defineStore } from "pinia";
 // Importamos la Data donde están los pasteles :3
 import products from "@/data";
 
+
 // Creamos nuestra Store con la api de Pinia
 export const useCartStore = defineStore("cart", {
 
