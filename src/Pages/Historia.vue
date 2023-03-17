@@ -3,7 +3,7 @@
     <v-card class="custom-card">
       <v-card-title class="custom-title">Nuestra Historia</v-card-title>
       <v-card-text class="custom-card-text">
-        <p>La Pastelería y Reposteria fue fundada en 1980 por Litam Pérez, un apasionado de la repostería que quería compartir sus deliciosos postres con la comunidad.</p>
+        <p>La Pastelería y Reposteria fue fundada en 1980 por Leitam Pelambre Angulo, un apasionado de la repostería que quería compartir sus deliciosos postres con la comunidad.</p>
         <p>Desde entonces, la pastelería ha crecido y evolucionado para convertirse en una de las más destacadas de la región. Con una amplia variedad de productos y un compromiso con la calidad, la pastelería y Reposteria Deli's se ha ganado la confianza y el cariño de sus clientes.</p>
         <ul class="custom-list">
           <li>Más de 40 años de experiencia en la elaboración de postres</li>

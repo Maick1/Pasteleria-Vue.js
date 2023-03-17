@@ -3,6 +3,7 @@
       <div class="navbar">
         <Navbar/>
       </div>
+      
     <v-container fluid>
        <!-- Vista Navbar aplicacion de figura de la panaderia -->
        <div class="head">
