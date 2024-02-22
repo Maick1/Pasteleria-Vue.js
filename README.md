@@ -64,6 +64,10 @@ Email: maick89911@gmail.com
 
 ¡Espero que disfrutes navegando por nuestra página de pastelería!
 
-![Screenshot_58](https://github.com/Maick1/Pasteleria-Vue.js/assets/86171053/310cefbe-6501-4e15-81ed-3110eb097020)
+
+![Screenshot 2024-02-22 162437](https://github.com/Maick1/Pasteleria-Vue.js/assets/86171053/1d4f9ecc-aac7-43e0-bed5-7a52d928ca4e)
+![Screenshot 2024-02-22 162348](https://github.com/Maick1/Pasteleria-Vue.js/assets/86171053/63077ad8-3baa-4af2-a40a-a00c2fa8c4ac)
+![Screenshot 2024-02-22 162125](https://github.com/Maick1/Pasteleria-Vue.js/assets/86171053/c87d4e45-2869-448c-a38b-e7bd7b7aace1)
+
 
 
