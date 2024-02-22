@@ -64,10 +64,8 @@ Email: maick89911@gmail.com
 
 ¡Espero que disfrutes navegando por nuestra página de pastelería!
 
-[url=https://postimg.cc/3kKWnxZq][img]https://i.postimg.cc/3kKWnxZq/Screenshot-2024-02-22-162125.png[/img][/url]
+[![Screenshot-2024-02-22-162125.png](https://i.postimg.cc/qvKnBt6p/Screenshot-2024-02-22-162125.png)](https://postimg.cc/3kKWnxZq)
 
-[url=https://postimg.cc/HrBnK1Zk][img]https://i.postimg.cc/HrBnK1Zk/Screenshot-2024-02-22-162348.png[/img][/url]
 
-[url=https://postimg.cc/CzCzGqbD][img]https://i.postimg.cc/CzCzGqbD/Screenshot-2024-02-22-162437.png[/img][/url]
 
 
